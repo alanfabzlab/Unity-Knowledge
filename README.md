@@ -27,6 +27,10 @@ Unity-Knowledge/
 ├── 00-Meta/                  # Templates, asset attachments, and vault configurations
 ├── 01-CSharp-Basics/         # Core language fundamentals, memory management, and OOP
 ├── 02-Unity-Engine/          # Unity Scripting API, physics, lifecycle, and UI systems
+│   ├── Components/           # Rigidbody, Colliders, Renderers, and Physics
+│   ├── Core-Concepts/        # Ecosystem, MonoBehaviour Lifecycle, and Scene Management
+│   │   └── 01-Unity-Ecosystem-Overview.md
+│   └── UI-And-Input/         # New Input System, UI Toolkit, and UGUI
 ├── 03-Game-Architecture/     # Design patterns, ScriptableObjects, and State Machines
 ├── 04-Snippets-And-Scripts/  # Production-ready C# utility scripts and helper methods
 └── 05-Projects-And-Devlogs/  # Architectural breakdowns and logs for active games
