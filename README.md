@@ -16,41 +16,33 @@
 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
+## 📂 Repository Structure 
+
+* 📁 **00-Meta/** — *Templates, asset attachments, and vault configurations*
+  * 📄 [`Note-Template.md`](00-Meta/Templates/Note-Template.md)
+* 📁 **01-CSharp-Basics/** — *Core language fundamentals, memory management, and OOP*
+  * 📄 [`01-OOP-Fundamentals-In-Unity.md`](01-CSharp-Basics/01-OOP-Fundamentals-In-Unity.md)
+  * 📄 [`02-Delegates-Events-And-Actions.md`](01-CSharp-Basics/02-Delegates-Events-And-Actions.md)
+  * 📄 [`03-Memory-Management-and-GC.md`](01-CSharp-Basics/03-Memory-Management-and-GC.md)
+* 📁 **02-Unity-Engine/** — *Unity Scripting API, physics, lifecycle, and UI systems*
+  * 📁 **Components/**
+    * 📄 [`01-Physics-Rigidbody-And-Colliders.md`](02-Unity-Engine/Components/01-Physics-Rigidbody-And-Colliders.md)
+  * 📁 **Core-Concepts/**
+    * 📄 [`01-Unity-Ecosystem-Overview.md`](02-Unity-Engine/Core-Concepts/01-Unity-Ecosystem-Overview.md)
+    * 📄 [`02-MonoBehaviour-Lifecycle.md`](02-Unity-Engine/Core-Concepts/02-MonoBehaviour-Lifecycle.md)
+    * 📄 [`03-Async-Awaitables-And-Coroutines.md`](02-Unity-Engine/Core-Concepts/03-Async-Awaitables-And-Coroutines.md)
+  * 📁 **UI-And-Input/**
+    * 📄 [`01-Input-System-Package.md`](02-Unity-Engine/UI-And-Input/01-Input-System-Package.md)
+* 📁 **03-Game-Architecture/** — *Design patterns, ScriptableObjects, and State Machines*
+  * 📄 [`01-ScriptableObject-Architecture.md`](03-Game-Architecture/01-ScriptableObject-Architecture.md)
+  * 📄 [`02-State-Machine-Pattern.md`](03-Game-Architecture/02-State-Machine-Pattern.md)
+* 📁 **04-Snippets-And-Scripts/** — *Production-ready C# utility scripts and helper methods*
+  * 📄 [`01-Singleton-Pattern.md`](04-Snippets-And-Scripts/01-Singleton-Pattern.md)
+  * 📄 [`02-Object-Pooling.md`](04-Snippets-And-Scripts/02-Object-Pooling.md)
+* 📁 **05-Projects-And-Devlogs/** — *Architectural breakdowns and logs for active games*
+  * 📄 [`01-Project-Architecture-Template.md`](05-Projects-And-Devlogs/01-Project-Architecture-Template.md)
 
 
-## 🛠 Repository Structure
-
-This vault is organized systematically to serve as a fast-lookup documentation hub and architectural reference during active game development:
-
-📁 **Unity-Knowledge/**  
-├── 📁 **00-Meta/** — *Templates, asset attachments, and vault configurations*  
-│   └── 📁 **Templates/**  
-│       └── 📄 [`Note-Template.md`](00-Meta/Templates/Note-Template.md)  
-├── 📁 **01-CSharp-Basics/** — *Core language fundamentals, memory management, and OOP*  
-│   ├── 📄 [`01-OOP-Fundamentals-In-Unity.md`](01-CSharp-Basics/01-OOP-Fundamentals-In-Unity.md)  
-│   ├── 📄 [`02-Delegates-Events-And-Actions.md`](01-CSharp-Basics/02-Delegates-Events-And-Actions.md)  
-│   └── 📄 [`03-Memory-Management-and-GC.md`](01-CSharp-Basics/03-Memory-Management-and-GC.md)  
-├── 📁 **02-Unity-Engine/** — *Unity Scripting API, physics, lifecycle, and UI systems*  
-│   ├── 📁 **Components/**  
-│   │   └── 📄 [`01-Physics-Rigidbody-And-Colliders.md`](02-Unity-Engine/Components/01-Physics-Rigidbody-And-Colliders.md)  
-│   ├── 📁 **Core-Concepts/**  
-│   │   ├── 📄 [`01-Unity-Ecosystem-Overview.md`](02-Unity-Engine/Core-Concepts/01-Unity-Ecosystem-Overview.md)  
-│   │   ├── 📄 [`02-MonoBehaviour-Lifecycle.md`](02-Unity-Engine/Core-Concepts/02-MonoBehaviour-Lifecycle.md)  
-│   │   └── 📄 [`03-Async-Awaitables-And-Coroutines.md`](02-Unity-Engine/Core-Concepts/03-Async-Awaitables-And-Coroutines.md)  
-│   └── 📁 **UI-And-Input/**  
-│       └── 📄 [`01-Input-System-Package.md`](02-Unity-Engine/UI-And-Input/01-Input-System-Package.md)  
-├── 📁 **03-Game-Architecture/** — *Design patterns, ScriptableObjects, and State Machines*  
-│   ├── 📄 [`01-ScriptableObject-Architecture.md`](03-Game-Architecture/01-ScriptableObject-Architecture.md)  
-│   └── 📄 [`02-State-Machine-Pattern.md`](03-Game-Architecture/02-State-Machine-Pattern.md)  
-├── 📁 **04-Snippets-And-Scripts/** — *Production-ready C# utility scripts and helper methods*  
-│   ├── 📄 [`01-Singleton-Pattern.md`](04-Snippets-And-Scripts/01-Singleton-Pattern.md)  
-│   └── 📄 [`02-Object-Pooling.md`](04-Snippets-And-Scripts/02-Object-Pooling.md)  
-└── 📁 **05-Projects-And-Devlogs/** — *Architectural breakdowns and logs for active games*  
-    └── 📄 [`01-Project-Architecture-Template.md`](05-Projects-And-Devlogs/01-Project-Architecture-Template.md)
-<<<<<<< HEAD
-=======
-    
->>>>>>> f9e585b (docs: update README with clickable links)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
 
