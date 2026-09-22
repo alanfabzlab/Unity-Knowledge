@@ -24,16 +24,20 @@ This vault is organized systematically to serve as a fast-lookup documentation h
 
 ```text
 Unity-Knowledge/
-├── 00-Meta/                  # Templates, asset attachments, and vault configurations
-├── 01-CSharp-Basics/         # Core language fundamentals, memory management, and OOP
-├── 02-Unity-Engine/          # Unity Scripting API, physics, lifecycle, and UI systems
-│   ├── Components/           # Rigidbody, Colliders, Renderers, and Physics
-│   ├── Core-Concepts/        # Ecosystem, MonoBehaviour Lifecycle, and Scene Management
-│   │   └── 01-Unity-Ecosystem-Overview.md
-│   └── UI-And-Input/         # New Input System, UI Toolkit, and UGUI
-├── 03-Game-Architecture/     # Design patterns, ScriptableObjects, and State Machines
-├── 04-Snippets-And-Scripts/  # Production-ready C# utility scripts and helper methods
-└── 05-Projects-And-Devlogs/  # Architectural breakdowns and logs for active games
+├── 00-Meta/                       # Templates, asset attachments, and vault configurations
+├── 01-CSharp-Basics/              # Core language fundamentals, memory management, and OOP
+│   └── 03-Memory-Management-and-GC.md
+├── 02-Unity-Engine/               # Unity Scripting API, physics, lifecycle, and UI systems
+│   ├── Components/                # Rigidbody, Colliders, Renderers, and Physics
+│   ├── Core-Concepts/             # Ecosystem, MonoBehaviour Lifecycle, and Scene Management
+│   │   ├── 01-Unity-Ecosystem-Overview.md
+│   │   └── 02-MonoBehaviour-Lifecycle.md
+│   └── UI-And-Input/              # New Input System, UI Toolkit, and UGUI
+├── 03-Game-Architecture/          # Design patterns, ScriptableObjects, and State Machines
+│   └── 01-ScriptableObject-Architecture.md
+├── 04-Snippets-And-Scripts/       # Production-ready C# utility scripts and helper methods
+│   └── 02-Object-Pooling.md
+└── 05-Projects-And-Devlogs/       # Architectural breakdowns and logs for active games
 ````
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
