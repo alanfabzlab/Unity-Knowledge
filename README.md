@@ -47,6 +47,10 @@ This vault is organized systematically to serve as a fast-lookup documentation h
 │   └── 📄 [`02-Object-Pooling.md`](04-Snippets-And-Scripts/02-Object-Pooling.md)  
 └── 📁 **05-Projects-And-Devlogs/** — *Architectural breakdowns and logs for active games*  
     └── 📄 [`01-Project-Architecture-Template.md`](05-Projects-And-Devlogs/01-Project-Architecture-Template.md)
+<<<<<<< HEAD
+=======
+    
+>>>>>>> f9e585b (docs: update README with clickable links)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
 
