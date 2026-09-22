@@ -1,0 +1,14 @@
+# Archivos del sistema
+.DS_Store
+
+# Archivos de espacio de trabajo de Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Archivos temporales de scripts o C#
+[Bb]in/
+[Oo]bj/
+*.csproj
+*.sln
+.vs/
+.idea/
