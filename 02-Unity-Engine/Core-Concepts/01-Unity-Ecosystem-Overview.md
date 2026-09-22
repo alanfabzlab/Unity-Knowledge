@@ -15,9 +15,16 @@ A comprehensive architectural breakdown of the Unity Engine ecosystem based on o
 
 ---
 
-## 🏗️ 1. Core Unity Engine Architecture
+## 📌 1. Core Unity Engine Architecture
 
-At its core, Unity operates on an **Entity-Component-System (ECS)**-inspired model (via `GameObject` and `MonoBehaviour`), driving real-time 2D/3D execution loops.
+At its core, Unity operates on a dual-layer architecture combining a high-performance C++ Native Core with a C# Managed Runtime via an Entity-Component model (`GameObject` and `MonoBehaviour`).
+
+### Native vs. Managed Runtime
+* **C++ Native Core:** Low-level engine handling rendering pipelines, PhysX execution, audio processing, and native memory management.
+* **C# Managed Runtime:** High-level gameplay layer executing C# scripts, UI toolkits, and editor extensions.
+* **Compilation Pipelines:**
+  * **Mono (JIT):** Just-In-Time compilation used during development for fast code compilation and rapid testing iterations.
+  * **IL2CPP (AOT):** Ahead-Of-Time compilation converting C# Intermediate Language (IL) into native C++ code before final platform builds, optimizing execution performance and binary security.
 
 ### Primary Engine Modules
 * **Unity Editor & API Reference:** The primary development workspace (`UnityEditor` namespace) interfacing with C# bindings for scene construction, asset processing, and window extensions.
@@ -32,24 +39,22 @@ At its core, Unity operates on an **Entity-Component-System (ECS)**-inspired mod
 Modern Unity development leverages automated CLI interfaces and profiling pipelines to maintain performance.
 
 ```text
-+-------------------------------------------------------------------+
-|                        UNITY EDITOR (C#)                          |
-+---------------------------------+---------------------------------+
-|          Runtime Core           |        Extensibility Layer       |
-|  (Physics, Rendering, Audio)    |    (Custom Editors, Handles)    |
-+---------------------------------+---------------------------------+
-|                     Unity CLI / Build Pipeline                    |
-+-------------------------------------------------------------------+
++-------------------------------------------------------+
+|                   UNITY EDITOR (C#)                   |
++---------------------------+---------------------------+
+|       Runtime Core        |    Extensibility Layer    |
+| (Physics, Rendering, Audio)| (Custom Editors, Handles) |
++---------------------------+---------------------------+
+|               Unity CLI / Build Pipeline              |
++-------------------------------------------------------+
 ````
 
-- **Unity CLI:** Command-line flags (e.g., `-batchmode -nographics -executeMethod`) enabling headless execution for automated continuous integration (CI/CD) pipelines.
+- **Unity CLI:** Command-line flags (e.g., `-batchmode`, `-nographics`, `-executeMethod`) enabling headless execution for automated continuous integration (CI/CD) pipelines.
     
 - **Developer Data Framework & Profiler:** Low-overhead diagnostic tools for tracking Garbage Collection (GC) allocations, draw calls, CPU/GPU frame times, and deep profiling memory footprints.
     
 - **Unity Dashboard & Parsec/SpeedTree:** Cloud-side control panel integrated with procedural generation tools (SpeedTree) and remote desktop workflows (Parsec).
     
-
-
 
 ## 🤝 3. Collaboration & Version Control (DevOps)
 
@@ -59,25 +64,23 @@ Collaborative development requires explicit asset tracking strategy due to Unity
 
 1. **Force Text Serialization:** Set `Project Settings > Editor > Asset Serialization` to **Force Text** so `.meta` and asset files remain human-readable text diffs.
     
-2. **Version Control Integration:** Utilize **PlasticSCM / Unity Version Control (UVCS)** or custom Git setup with `.gitignore` targeting `/Library`, `/Temp`, and `/obj`.
+2. **Version Control Integration:** Utilize PlasticSCM / Unity Version Control (UVCS) or custom Git setup with `.gitignore` targeting `/Library`, `/Temp`, and `/obj`.
     
 3. **Build Automation:** Offloading platform compilation to cloud build agents to preserve local development cycles.
     
-
 
 ## ⚡ 4. Networking & Multiplayer Frameworks
 
 Unity offers multiple networking layers depending on game architecture and authority models:
 
-|**Framework**|**Target Architecture**|**Authority Model**|**Use Case**|
+|Framework|Target Architecture|Authority Model|Use Case|
 |---|---|---|---|
 |**Netcode for GameObjects (NGO)**|Mid-scale Multiplayer|Server-Authoritative / Host-Client|Co-op, Action RPGs, Party Games|
 |**Netcode for Entities (DOTS)**|Massively Multiplayer|High-Performance Server Auth|Deterministic Simulation, 100+ entities|
 |**Unity Transport (UTP)**|Low-Level Network Layer|UDP Socket Abstraction|Custom Network Protocols & Relay Services|
 |**Vivox & Friends/Lobbies**|Communications Layer|Client Services|Voice Chat, Text Chat, Matchmaking|
 
-
-## 📈 5. LiveOps, Cloud Services & Analytics
+## 📊 5. LiveOps, Cloud Services & Analytics
 
 Modern live-service architecture integrates directly into C# runtimes via `Unity.Services.Core`.
 
