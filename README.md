@@ -25,19 +25,29 @@ This vault is organized systematically to serve as a fast-lookup documentation h
 ```text
 Unity-Knowledge/
 ├── 00-Meta/                       # Templates, asset attachments, and vault configurations
+│   └── Templates/
+│       └── Note-Template.md
 ├── 01-CSharp-Basics/              # Core language fundamentals, memory management, and OOP
+│   ├── 01-OOP-Fundamentals-In-Unity.md
+│   ├── 02-Delegates-Events-And-Actions.md
 │   └── 03-Memory-Management-and-GC.md
 ├── 02-Unity-Engine/               # Unity Scripting API, physics, lifecycle, and UI systems
 │   ├── Components/                # Rigidbody, Colliders, Renderers, and Physics
+│   │   └── 01-Physics-Rigidbody-And-Colliders.md
 │   ├── Core-Concepts/             # Ecosystem, MonoBehaviour Lifecycle, and Scene Management
 │   │   ├── 01-Unity-Ecosystem-Overview.md
-│   │   └── 02-MonoBehaviour-Lifecycle.md
+│   │   ├── 02-MonoBehaviour-Lifecycle.md
+│   │   └── 03-Async-Awaitables-And-Coroutines.md
 │   └── UI-And-Input/              # New Input System, UI Toolkit, and UGUI
+│       └── 01-Input-System-Package.md
 ├── 03-Game-Architecture/          # Design patterns, ScriptableObjects, and State Machines
-│   └── 01-ScriptableObject-Architecture.md
+│   ├── 01-ScriptableObject-Architecture.md
+│   └── 02-State-Machine-Pattern.md
 ├── 04-Snippets-And-Scripts/       # Production-ready C# utility scripts and helper methods
+│   ├── 01-Singleton-Pattern.md
 │   └── 02-Object-Pooling.md
 └── 05-Projects-And-Devlogs/       # Architectural breakdowns and logs for active games
+    └── 01-Project-Architecture-Template.md
 ````
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
