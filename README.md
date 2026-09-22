@@ -9,7 +9,7 @@
 [![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS%20%7C%206.0-black?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com/)
 [![C#](https://img.shields.io/badge/C%23-11.0%20%7C%2012.0-blueviolet?style=for-the-badge&logo=csharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)
 [![Obsidian](https://img.shields.io/badge/Obsidian-Vault-purple?style=for-the-badge&logo=obsidian&logoColor=white)](https://obsidian.md/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg?style=for-the-badge)](LICENSE)
 
 *A structured personal vault and documentation repository focused on Unity game engine architecture, C# scripting, design patterns, performance optimization, and indie game devlogs.*
 
