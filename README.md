@@ -14,7 +14,9 @@
 
 </div>
 
----
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
+
 
 ## 🛠 Repository Structure
 
@@ -29,6 +31,9 @@ Unity-Knowledge/
 ├── 04-Snippets-And-Scripts/  # Production-ready C# utility scripts and helper methods
 └── 05-Projects-And-Devlogs/  # Architectural breakdowns and logs for active games
 ````
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
+
 
 ## 🚀 Core Learning Pillars
 
@@ -59,7 +64,12 @@ Unity-Knowledge/
 - **Finite State Machines (FSM):** Clean player controller state handling (Idle, Run, Jump, Attack).
     
 - **ScriptableObject Architecture:** Data-driven design, inventory systems, and modular game events.
+
+
     
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
+
+
 
 ## 🕹 Featured Projects & Devlogs
 
@@ -70,7 +80,10 @@ Unity-Knowledge/
 - **Tech Stack:** Unity, C#, Universal Render Pipeline (URP), Tilemaps
     
 - **Focus Areas:** Custom State-Machine-based Movement & Combat, ScriptableObject Data-Driven Item System.
+
     
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
+
 
 ## 💻 Technical Setup
 
@@ -81,6 +94,9 @@ To preview and navigate this vault locally with full visual enhancements and que
 2. Enable **Community Plugins** in settings.
     
 3. Recommended extensions configured in this vault: **Dataview**, **Codeblock Customizer**, **Mermaid Tools**, **Omnisearch**.
+
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C5CFF&height=60&section=header" width="100%" alt="Slow Neon Wave" />
     
 
 ## 📜 License
